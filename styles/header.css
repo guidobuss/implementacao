@@ -15,3 +15,13 @@
 .container__titulo, .container__frase{
     display: none;
 }
+
+@media screen and (min-width: 820px){
+    .container__titulo, .container__titulo--negrito{
+        font-size: 30px;
+    }
+    .container__titulo{
+        display:block;
+        width: 30vw;
+    }
+}
