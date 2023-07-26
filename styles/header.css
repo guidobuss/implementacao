@@ -11,3 +11,7 @@
 .container__imagem, .container__titulo, .container__frase{
     padding: 1em;
 }
+
+.container__titulo, .container__frase{
+    display: none;
+}
